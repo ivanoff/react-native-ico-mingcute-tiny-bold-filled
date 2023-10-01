@@ -1,5 +1,6 @@
 declare module 'react-native-ico-mingcute-tiny-bold-filled' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = 'add-circle' |
       'aiming-2' |
@@ -703,7 +704,7 @@ declare module 'react-native-ico-mingcute-tiny-bold-filled' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
