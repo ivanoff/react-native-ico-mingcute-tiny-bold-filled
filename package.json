@@ -1,15 +1,20 @@
 {
   "name": "react-native-ico-mingcute-tiny-bold-filled",
-  "version": "5.1.2",
+  "version": "5.1.3",
   "description": "Mingcute Tiny Bold Filled Icons for React Native",
   "main": "src/index.jsx",
   "types": "typings.d.ts",
   "dependencies": {
-    "react-svg-main": "^4.0.1"
+    "react-svg-main": "^4.1.1"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72",
+    "react-native-svg": ">=15"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivanoff/react-native-ico-mingcute-tiny-bold-filled.git"
+    "url": "git+https://github.com/ivanoff/react-native-ico-mingcute-tiny-bold-filled.git"
   },
   "keywords": [
     "React",
