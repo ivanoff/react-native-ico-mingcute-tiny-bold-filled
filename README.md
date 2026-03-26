@@ -4,7 +4,7 @@
 
 670 Vector Icons for React Native
 
-<img src="./static/airbnb.png" alt="airbnb" width="150" height="150"> <img src="./static/airplane.png" alt="airplane" width="150" height="150"> <img src="./static/airplay.png" alt="airplay" width="150" height="150">
+<img src="./static/switch.png" alt="switch" width="150" height="150"> <img src="./static/safe-shield.png" alt="safe-shield" width="150" height="150"> <img src="./static/rows-2.png" alt="rows-2" width="150" height="150">
 
 ## List of icons
 
@@ -20,14 +20,14 @@ import Icon from 'react-native-ico-mingcute-tiny-bold-filled';
 render() {
     return (
         <>
-          <Icon name="airbnb" />
-          <Icon name="airplane" height="40" width="40" />
-          <Icon name="airplay" color="red" />
-          <Icon name="airplay" colors={{ "#000000": "#FFFFFF" }} />
-          <Icon name="airplane" badge="10" />
-          <Icon name="airplane" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
-          <Icon name="airbnb" background="circle" />
-          <Icon name="airbnb" background={{ type: "button", color: 'green' }} />
+          <Icon name="switch" />
+          <Icon name="safe-shield" height="40" width="40" />
+          <Icon name="rows-2" color="red" />
+          <Icon name="rows-2" colors={{ "#000000": "#FFFFFF" }} />
+          <Icon name="safe-shield" badge="10" />
+          <Icon name="safe-shield" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="switch" background="circle" />
+          <Icon name="switch" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -70,9 +70,9 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of icon | "airbnb"
+name | no |  | name of icon | "switch"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
-colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
+colors | yes | | replace colors | {"#FFFFFF": "#000000", "#f00": "#00f"} // white to black, red to blue
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 background | yes | | background type | "circle"
